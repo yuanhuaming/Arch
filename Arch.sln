@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0C91757A-F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arch.Test", "test\Arch.Test\Arch.Test.csproj", "{19B3EBC1-B751-4DB3-B822-F718C5D8E3FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arch.Exceptionless", "src\Arch.Exceptionless\Arch.Exceptionless.csproj", "{B1C2D265-BDE5-4C03-BDA8-5E8A4DCFF829}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,14 @@ Global
 		{19B3EBC1-B751-4DB3-B822-F718C5D8E3FE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{19B3EBC1-B751-4DB3-B822-F718C5D8E3FE}.Release|x86.ActiveCfg = Release|Any CPU
 		{19B3EBC1-B751-4DB3-B822-F718C5D8E3FE}.Release|x86.Build.0 = Release|Any CPU
+		{B1C2D265-BDE5-4C03-BDA8-5E8A4DCFF829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1C2D265-BDE5-4C03-BDA8-5E8A4DCFF829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1C2D265-BDE5-4C03-BDA8-5E8A4DCFF829}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B1C2D265-BDE5-4C03-BDA8-5E8A4DCFF829}.Debug|x86.Build.0 = Debug|Any CPU
+		{B1C2D265-BDE5-4C03-BDA8-5E8A4DCFF829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1C2D265-BDE5-4C03-BDA8-5E8A4DCFF829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1C2D265-BDE5-4C03-BDA8-5E8A4DCFF829}.Release|x86.ActiveCfg = Release|Any CPU
+		{B1C2D265-BDE5-4C03-BDA8-5E8A4DCFF829}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +52,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F630CF2F-5F08-4565-90E9-3413099EC849} = {E3430CBF-315B-4579-9EF8-69D29CBD1AF0}
 		{19B3EBC1-B751-4DB3-B822-F718C5D8E3FE} = {0C91757A-FFE6-4BD3-9A6E-47EE00BFFC38}
+		{B1C2D265-BDE5-4C03-BDA8-5E8A4DCFF829} = {E3430CBF-315B-4579-9EF8-69D29CBD1AF0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {440E2251-DB61-4B23-AF95-EE23AC42E2F1}
